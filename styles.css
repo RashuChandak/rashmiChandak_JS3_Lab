@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Gill Sans Extrabold', sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/mountain-landscape-with-purple-sky-river_1340-23811.jpg?size=626&ext=jpg&ga=GA1.1.1196349458.1681751829&semt=sph');
+    background-size: cover;
+    background-position: top center;
+  }
+  
+  .app-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(64, 48, 48, 0.6));
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+  }
+  
+  header input {
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 16px 0px 16px 0px;
+    border-bottom: 3px solid #DF8E00;
+    
+    color: #313131;
+    font-size: 20px;
+    font-weight: 300;
+    transition: 0.2s ease-out;
+  }
+  
+  header input:focus {
+    background-color: rgba(247, 246, 246, 0.786);
+  }
+  
+  main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .location .city {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  .location .date {
+    color: #FFF;
+    font-size: 20px;
+  }
+  
+  .current .temp {
+    color: #FFF;
+    font-size: 102px;
+    font-weight: 900;
+    margin: 30px 0px;
+    text-shadow: 2px 8px rgba(0, 0, 0, 0.8);
+  }
+  
+  .current .temp span {
+    font-weight: 500;
+  }
+  
+  .current .weather {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: roman;
+    margin-bottom: 15px;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+  }
+  
+  .current .hi-low {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+  }
